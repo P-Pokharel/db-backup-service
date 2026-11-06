@@ -1,0 +1,9 @@
+target/
+data/
+.env
+.git/
+.vscode/
+.zed
+*.md
+Dockerfile
+.dockerignore
