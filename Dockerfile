@@ -41,6 +41,8 @@ COPY --from=builder /usr/local/bin/db_backup_service /usr/local/bin/db_backup_se
 
 USER app
 
+EXPOSE 8080
+
 # Absolute path (three slashes) so it doesn't depend on the working directory.
 ENV DATABASE_URL=sqlite:///app/data/app.db
 
